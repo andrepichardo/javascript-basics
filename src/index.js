@@ -6,5 +6,5 @@ const apellido = "Pichardo Goico";
 let valorDado = 5;
 valorDado = 7;
 
-document.write('hola a todos')
+document.write('hola a todos amigos')
 console.log(nombre, apellido, valorDado);
