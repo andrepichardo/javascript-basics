@@ -4,6 +4,6 @@ const nombre = "André";
 const apellido = "Pichardo";
 
 let valorDado = 5;
-valorDado = 3;
+valorDado = 4;
 
 console.log(nombre, apellido, valorDado);
