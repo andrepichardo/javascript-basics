@@ -1,5 +1,7 @@
-import heroes, { owners } from "../data/heroes";
-console.log(owners);
+// import heroes, { owners } from "../data/heroes";
+import heroes from "../data/heroes";
+
+// console.log(owners);
 // const getHeroesById = (id) => {
 //     return heroes.find((heroe) => {
 //         if (heroe.id === id) {
@@ -13,13 +15,11 @@ console.log(owners);
 
 // console.log(getHeroesById(2));
 
-
 // Find y Filter:
-const getHeroesById = (id) => heroes.find((heroe) => heroe.id === id);
 
-console.log(getHeroesById(4));
+export const getHeroesById = (id) => heroes.find((heroe) => heroe.id === id);
+// console.log(getHeroesById(4));
 
-const getHeroesByOwner = (owner) =>
+export const getHeroesByOwner = (owner) =>
   heroes.filter((heroe) => heroe.owner === owner);
-
-console.log(getHeroesByOwner("Marvel"));
+// console.log(getHeroesByOwner("Marvel"));
